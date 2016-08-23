@@ -19,8 +19,10 @@ return count;
 
 public void borrow(Book book){
   int bookCount = bookCount();
-  loans[bookCount] = salmon;
+  loans[bookCount] = book;
 }
+
+
 
 public void returnBooks(){
   for(int i = 0; i < loans.length; i++){
